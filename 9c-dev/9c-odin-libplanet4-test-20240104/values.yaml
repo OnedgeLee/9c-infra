@@ -9,7 +9,7 @@ global:
   validatorPath: "validator-5.9c-odin-libplanet4-test-20240104.svc.cluster.local"
   image:
     repository: planetariumhq/ninechronicles-headless
-    tag: "git-d58616b6e4225d844c8d7c4dfa12a892fb8ca100"
+    tag: "git-fdb3b921f33a469defb766218b7a2b5ceaced579"
 
   appProtocolVersion: "1/fe4829C1650d3d5FC552516576731DBE74A5f3B1/MEQCID.oqBAHrJRhQ0myPP6eAMjnoPKz0mMn+btIdHdQ94QxAiAdV2L0l8GfQ0nat7g.6xClCWW9ue2rmarV5hBESUcwbQ=="
   genesisBlockPath: "https://release.nine-chronicles.com/genesis-block-9c-main"
@@ -84,8 +84,6 @@ remoteHeadless:
 
 testHeadless1:
   enabled: true
-  image:
-    tag: "git-1064aae17b967cc0b18c5efe4739041c48990578-v5"
 
   loggingEnabled: true
   
